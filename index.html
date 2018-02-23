@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>城市联动</title>
+</head>
+<body>
+    <form id="dist">
+        <select name="" data-role="province" data-value="四川" data-placeholder="全国"></select>
+        <select name="" data-role="city" data-value="南充" data-placeholder="全省"></select>
+        <select name="" data-role="county" data-value="蓬安县" data-placeholder="全市"></select>
+    </form>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="distPicker.js"></script>
+    <script>
+        $("#dist").distPicker();
+    </script>
+</body>
+</html>
